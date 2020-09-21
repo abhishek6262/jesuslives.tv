@@ -1,9 +1,10 @@
 {
   "expo": {
     "name": "jesuslives.tv",
-    "slug": "jesuslives.tv",
+    "slug": "jesuslives-tv",
+    "privacy": "unlisted",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -17,10 +18,18 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "codes.shade.jesuslives.tv",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "codes.shade.jesuslives.tv",
+      "versionCode": 1,
+      "enableDangerousExperimentalLeanBuilds": true,
+      "permissions": []
     }
   }
 }
